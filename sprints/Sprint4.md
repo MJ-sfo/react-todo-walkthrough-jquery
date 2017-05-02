@@ -3,9 +3,10 @@
 
 Creating todos will require a form on the client side.  In this sprint, you'll create a `CreateTodoForm` component to handle that form. The new component will join `TodoList` as one of the children of the `TodosContainer` component.
 
-
-<!-- The state of the `CreateTodoForm` will have an effect on the state of the todos overall Before we build this feature out, there How can we pass state from a child component to a parent? The opposite is easy, because we're able to just pass properties to our child components. Child state to parent state is much more difficult because we can't pass properties like that. Its unidirectional. The answer? Callbacks.
- -->
+Resources for new tools and topics:
+- [React.Component documentation](https://facebook.github.io/react/docs/react-component.html) from Facebook/React.
+- [React Components Lifecycle Diagram](http://codepen.io/eduardoboucas/pen/jqWbdb/) by  Eduardo Bouças  
+- [Handling Events](https://facebook.github.io/react/docs/handling-events.html) from Facebook/React.
 
 
 ### Create Todo Form and Events
