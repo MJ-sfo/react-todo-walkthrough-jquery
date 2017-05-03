@@ -53,6 +53,7 @@ class TodosContainer extends Component {
       })
       // update this.state.todos based on response
       targetTodo.body = res.body
+      this.setState({todos: this.state.todos})
     })
   }
   render(){
