@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, browserHistorty} from 'react-router'
+import {Router, browserHistory} from 'react-router'
 // import route components from config foler ??
 import routes from './config/routes.js'
 // the next  -not needed in react ???
